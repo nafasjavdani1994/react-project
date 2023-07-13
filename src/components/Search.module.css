@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   background-color: #2f58cd;
   padding: 80px 100px;
   display: flex;
@@ -15,6 +16,7 @@
 .container input {
   width: 300px;
   height: 40px;
+  display: block;
   outline: none;
   padding: 10px;
   border-radius: 10px;
@@ -29,15 +31,18 @@
 @media screen and (max-width: 500px) {
   .container {
     flex-direction: column;
-    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
   }
 
   .container p {
-    font-size: 1.9rem;
+    
+    font-size: 1.6rem;
     margin-bottom: 20px;
   }
 
   .container input {
-    display: block;
+    width: 250px;
   }
 }

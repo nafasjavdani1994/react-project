@@ -28,6 +28,7 @@
     }
   .container div {
     flex-direction: column;
+    justify-content: center;
   }
 
   .container h3 {
