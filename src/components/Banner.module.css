@@ -1,0 +1,35 @@
+.banner {
+  position: relative;
+}
+
+.bgImg img {
+  filter: brightness(80%);
+  width: 100%;
+}
+
+.textContainer {
+  padding: 100px 0 0 60px;
+  position: absolute;
+  top: 10%;
+  left: 1.5%;
+  z-index: 2;
+}
+
+.textContainer h1 {
+  font-size: 7rem;
+}
+
+.textContainer p {
+  font-size: 4rem;
+  margin-top: 20px;
+}
+
+.textContainer p span {
+  color: #4981E9;
+  font-weight: 600;
+}
+
+
+/* A8E0FF */
+
+/* EDE731 */

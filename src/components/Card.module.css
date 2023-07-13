@@ -1,0 +1,26 @@
+.container {
+  margin: 10px;
+  background: #ebebeb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #bdbdbd;
+}
+
+.cardImg {
+  width: 300px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.container h3 {
+  margin: 30px 20px 20px;
+}
+
+.container p {
+  margin: 0 25px 20px;
+  background-color: #d3cfdd;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
