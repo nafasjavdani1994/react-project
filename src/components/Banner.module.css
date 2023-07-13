@@ -3,7 +3,7 @@
 }
 
 .bgImg img {
-  filter: blur(2px) brightness(90%);
+  filter:brightness(90%);
   width: 100%;
 }
 
