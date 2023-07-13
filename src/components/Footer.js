@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
         <p>
-            &copy; 2023, Made with ❣️ by Nafiseh Javdani
+            &copy; 2023, Done by Nafiseh Javdani
         </p>
     </div>
   )
