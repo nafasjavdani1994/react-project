@@ -1,0 +1,26 @@
+.container {
+    background-color: #2F58CD;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container input {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
