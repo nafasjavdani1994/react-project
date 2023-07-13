@@ -8,10 +8,9 @@
 }
 
 .textContainer {
-  padding: 100px 0 0 60px;
   position: absolute;
-  top: 10%;
-  left: 1.5%;
+  top: 20%;
+  left: 5%;
   z-index: 2;
 }
 
@@ -29,12 +28,13 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 500px) {
+  .textContainer h1{
+    font-size: 2.5rem;
+  }
 
-/* A8E0FF */
-
-/* EDE731 */
-
-/* 4981E9 */
-
-/* 6A6AB4 */
-
+  .textContainer p {
+    font-size: 1.6rem;
+  }
+    
+}

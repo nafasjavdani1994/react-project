@@ -3,6 +3,7 @@ li {
 }
 
 .header {
+  width: 100%;
   height: 100px;
   background: #ebebeb;
   padding: 0 3em;
@@ -32,7 +33,7 @@ li {
   border-radius: 10px;
   left: 0;
   height: 2px;
-  background-color: #D3CFDD;
+  background-color: #d3cfdd;
   width: 0%;
   transition: all 0.5s ease;
 }
@@ -42,7 +43,7 @@ li {
 }
 
 .listItem a:hover {
-  color: #5E5577;
+  color: #5e5577;
   letter-spacing: 2px;
 }
 
@@ -56,4 +57,19 @@ li {
   height: 100%;
   object-fit: cover;
   border-radius: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 0 1.5em;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .listItem a {
+    font-size: 15px;
+  }
 }

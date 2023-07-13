@@ -4,6 +4,11 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 10px #bdbdbd;
+  transition: all 0.5s;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 .cardImg {
@@ -18,9 +23,15 @@
 
 .container p {
   margin: 0 25px 20px;
-  background-color: #5FCC9C;
+  background-color: #5fcc9c;
   width: fit-content;
   padding: 5px;
   border-radius: 5px;
   color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 0 0 40px;
+  }
 }
